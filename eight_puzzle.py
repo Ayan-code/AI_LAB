@@ -73,7 +73,7 @@ def solve(board, emptyrow, emptycol):
         #else:
             # printBoard(board)
             # sleep(5)
-
+        
         board[minMove[0]][minMove[1]], board[emptyrow][emptycol] = board[emptyrow][emptycol], board[minMove[0]][minMove[1]]
         emptyrow, emptycol = minMove[0], minMove[1]
         count += 1
@@ -84,7 +84,7 @@ def solve(board, emptyrow, emptycol):
     else:
         print()
         print("----------------- Sorry, This is not possible -----------------")
-
+        
 
 def start():
     board = [[0 for i in range(3)] for j in range(3)]
