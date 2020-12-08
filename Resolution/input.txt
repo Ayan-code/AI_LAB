@@ -1,7 +1,0 @@
-2
-H(John)
-G(Joe)
-3
-~K(x) | ~G(x) | H(x)
-K(John)
-G(x)
